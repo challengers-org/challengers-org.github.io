@@ -114,3 +114,8 @@ footer a:hover {
     text-decoration: none; /* No underline on hover */
 }
 
+.carousel-inner img {
+    width: 100%;
+    height: 300px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensures the images cover the area without distortion */
+}
