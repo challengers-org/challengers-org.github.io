@@ -15,11 +15,11 @@ body {
 .navbar-nav .nav-link {
     color: white;
 }
-
 .hero-section {
-    background-color: #00c6ff;
+    background-color: #68afd8;
     color: white;
-    padding: 100px 0;
+    padding: 60px 0;
+    text-align: center;
 }
 
 .hero-section h1 {
@@ -28,6 +28,15 @@ body {
 
 .hero-section p {
     font-size: 1.5rem;
+}
+
+.hero-par {
+    display: inline-block; /* restricts background to text width */
+    background-color: #6c757d; /* slightly different shade for contrast */
+    padding: 10px 20px;
+    color: #f0f0f0; /* lighter text for readability */
+    border-radius: 8px; /* optional: adds a subtle rounded border */
+    margin-top: 20px;
 }
 
 footer {
@@ -175,4 +184,10 @@ main p {
     color: #2C3E50;
     margin-top: 30px;
     margin-bottom: 15px;
+}
+body {
+    font-family: 'Almarai', sans-serif; /* Use 'Almarai' instead if you prefer */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* Bold weight */
 }
