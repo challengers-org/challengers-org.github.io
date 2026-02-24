@@ -5,26 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challengers Association for Education and Culture</title>
-    <meta name="description" content="An association focused on education and culture, located in Douar Ait Ali and Issa, Toundout, Ouarzazate. It aims to serve children and youth in areas of education, training, and educational and cultural activities.">
+    <meta name="description"
+        content="An association focused on education and culture, located in Douar Ait Ali and Issa, Toundout, Ouarzazate. It aims to serve children and youth in areas of education, training, and educational and cultural activities.">
     <link rel="icon" type="image/x-icon" href="logo.png">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <meta name="google-site-verification" content="eLcTgoyTMtYJ9_4Hsmigzgo6cxlBRlBHZ4sNb2B1FsA" />
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><img src="logo.png" alt="Logo" width="50"></a>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="Challengers Logo">
+            <div class="navbar-brand-text">
+                Challengers Association
+                <span>Education &amp; Culture</span>
+            </div>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+            <ul class="navbar-nav ml-auto align-items-lg-center">
+                <li class="nav-item">
+                    <a class="nav-link active-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
@@ -38,22 +48,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="activities.html">Our Activities</a>
                 </li>
-                <li class="nav-item">
-                    <a href="../ar/index.html"><button id="language-switch" class="btn btn-secondary">Arabic</button></a>
+                <li class="nav-item ml-lg-2">
+                    <a href="../ar/index.html">
+                        <button id="language-switch" class="btn-lang">عربي</button>
+                    </a>
                 </li>
-                
+                <div class="nav-divider d-none d-lg-block"></div>
                 <li class="nav-item">
-                    <hr>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://www.facebook.com/profile.php?id=100094671842147" target="_blank" class="nav-link">
-                        <span class="ml-2">Facebook Page</span>
+                    <a href="https://www.facebook.com/profile.php?id=100094671842147" target="_blank"
+                        class="nav-link social-link">
+                        <i class="fab fa-facebook-f mr-1"></i> Facebook
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="mailto:acecchallengers@gmail.com" class="nav-link">
-                        <span class="ml-2">acecchallengers@gmail.com</span>
+                    <a href="mailto:acecchallengers@gmail.com" class="nav-link social-link">
+                        <i class="fas fa-envelope mr-1"></i> Email
                     </a>
                 </li>
             </ul>
@@ -63,48 +72,75 @@
     <!-- Hero Section -->
     <header class="hero-section">
         <div class="container text-center">
-            <h1>Welcome to the Challengers Association for Education and Culture</h1>
-            <p class="hero-par">An association focused on education and culture, located in Douar Ait Ali and Issa, Toundout, Ouarzazate. It aims to serve children and youth in areas of education, training, and educational and cultural activities.</p>
+            <h1>Welcome to the <span class="yellow-text">Challengers Association</span><br>for Education and Culture
+            </h1>
+            <p class="hero-par">An association focused on education and culture, located in Douar Ait Ali and Issa,
+                Toundout, Ouarzazate. It aims to serve children and youth in areas of education, training, and
+                educational and cultural activities.</p><br>
+            <a href="about.html" class="btn btn-primary">Learn More &rarr;</a>
         </div>
-        <a href="about.html" class="btn btn-primary">Learn More</a>
-    </header>   
+    </header>
 
     <!-- Main Content -->
     <main class="container mt-5">
+        <div class="page-header fade-in-up">
+            <h2 class="heading-primary">What We Do</h2>
+        </div>
         <section class="row">
-            <div class="col-md-4">
-                <h2>Our Mission</h2>
-                <p>We aim to support students at all educational levels on their learning journey by providing resources, guidance, and cultural activities.</p>
-                <a href="activities.html" class="btn btn-secondary">View Activities</a>
+            <div class="col-md-4 mb-4 fade-in-up">
+                <div class="feature-card">
+                    <span class="feature-icon">📚</span>
+                    <h2>Our Mission</h2>
+                    <p>We aim to support students at all educational levels on their learning journey by providing
+                        resources, guidance, and cultural activities.</p>
+                    <a href="activities.html" class="btn btn-secondary">View Activities</a>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h2>Our Programs</h2>
-                <p>Explore our educational and cultural programs designed to inspire and empower young minds.</p>
-                <a href="programs.html" class="btn btn-secondary">View Programs</a>
+            <div class="col-md-4 mb-4 fade-in-up">
+                <div class="feature-card">
+                    <span class="feature-icon">🌱</span>
+                    <h2>Our Programs</h2>
+                    <p>Explore our educational and cultural programs designed to inspire and empower young minds.</p>
+                    <a href="programs.html" class="btn btn-secondary">View Programs</a>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h2>Get Involved</h2>
-                <p>Join us in making a difference. Learn how you can volunteer, donate, or collaborate with us.</p>
-                <a href="get-involved.html" class="btn btn-secondary">Get Involved</a>
+            <div class="col-md-4 mb-4 fade-in-up">
+                <div class="feature-card">
+                    <span class="feature-icon">🤝</span>
+                    <h2>Get Involved</h2>
+                    <p>Join us in making a difference. Learn how you can volunteer, donate, or collaborate with us.</p>
+                    <a href="get-involved.html" class="btn btn-secondary">Get Involved</a>
+                </div>
             </div>
         </section>
-        <br>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-light text-center py-4">
+    <footer>
         <p>&copy; 2025 Challengers Association for Education and Culture. All rights reserved.</p>
     </footer>
 
+    <!-- WhatsApp Button -->
     <a href="https://api.whatsapp.com/send?phone=212669364786&text=Hello, I would like to donate or collaborate with the Challengers Association for Education and Culture."
         class="whatsapp-button" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
         <span>Contact Us and Collaborate</span>
     </a>
-    
+
     <!-- Bootstrap and jQuery Scripts -->
     <script src="../bootstrap/js/jquery-3.4.1.slim.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        // Scroll fade-in animation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.fade-in-up').forEach(el => observer.observe(el));
+    </script>
 </body>
 
 </html>
