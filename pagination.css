@@ -1,0 +1,67 @@
+/* =========================================================
+   PAGINATION STYLING
+   ========================================================= */
+.pagination .page-link {
+    color: var(--navy);
+    background-color: var(--white);
+    border: 1px solid var(--border-light);
+    font-family: 'Cairo', 'Inter', sans-serif;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.pagination .page-link:hover {
+    color: var(--navy);
+    background-color: var(--yellow-light);
+    border-color: var(--yellow);
+}
+
+.pagination .page-item.active .page-link {
+    z-index: 3;
+    color: var(--navy);
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.pagination .page-item.disabled .page-link {
+    color: var(--text-muted);
+    background-color: var(--off-white);
+    border-color: var(--border-light);
+}
+
+/* =========================================================
+   SEARCH BAR STYLING
+   ========================================================= */
+.search-container {
+    border: 2px solid var(--border-light);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.search-container:focus-within {
+    border-color: var(--yellow);
+    box-shadow: var(--shadow-yellow);
+}
+
+.search-input {
+    color: var(--navy);
+    background-color: var(--white);
+    font-family: inherit;
+    box-shadow: none !important;
+}
+
+.search-input:focus {
+    box-shadow: none !important;
+    background-color: var(--white);
+}
+
+.search-icon {
+    color: var(--text-muted);
+    background-color: var(--white);
+    transition: var(--transition);
+}
+
+.search-container:focus-within .search-icon {
+    color: var(--yellow);
+}

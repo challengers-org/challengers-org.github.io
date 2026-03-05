@@ -538,6 +538,7 @@ main ul li {
     width: 16px;
     height: 16px;
     filter: invert(1) brightness(0);
+    transform: rotate(180deg);
 }
 
 .carousel-control-prev:hover,
